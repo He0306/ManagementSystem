@@ -1,0 +1,625 @@
+2022-03-24 10:33:37,378 - Log4JLogChute initialized using file 'velocity.log'
+2022-03-24 10:33:37,378 - Initializing Velocity, Calling init()...
+2022-03-24 10:33:37,378 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2022-03-24 10:33:37,378 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2022-03-24 10:33:37,378 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2022-03-24 10:33:37,378 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2022-03-24 10:33:37,378 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-03-24 10:33:37,378 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-03-24 10:33:37,381 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-24 10:33:37,391 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2022-03-24 10:33:37,392 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2022-03-24 10:33:37,393 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2022-03-24 10:33:37,393 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2022-03-24 10:33:37,394 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2022-03-24 10:33:37,394 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2022-03-24 10:33:37,395 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2022-03-24 10:33:37,396 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2022-03-24 10:33:37,397 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2022-03-24 10:33:37,398 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2022-03-24 10:33:37,420 - Created '20' parsers.
+2022-03-24 10:33:37,423 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2022-03-24 10:33:37,424 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2022-03-24 10:33:37,424 - Velocimacro : Default library not found.
+2022-03-24 10:33:37,424 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2022-03-24 10:33:37,424 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2022-03-24 10:33:37,424 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2022-03-24 10:33:37,424 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2022-03-24 10:33:37,438 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-24 10:33:37,450 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-24 10:33:37,452 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-24 10:33:37,454 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-24 10:38:20,429 - Log4JLogChute initialized using file 'velocity.log'
+2022-03-24 10:38:20,429 - Initializing Velocity, Calling init()...
+2022-03-24 10:38:20,429 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2022-03-24 10:38:20,429 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2022-03-24 10:38:20,429 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2022-03-24 10:38:20,429 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2022-03-24 10:38:20,429 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-03-24 10:38:20,429 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-03-24 10:38:20,432 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-24 10:38:20,441 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2022-03-24 10:38:20,442 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2022-03-24 10:38:20,442 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2022-03-24 10:38:20,443 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2022-03-24 10:38:20,444 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2022-03-24 10:38:20,444 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2022-03-24 10:38:20,444 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2022-03-24 10:38:20,445 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2022-03-24 10:38:20,446 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2022-03-24 10:38:20,446 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2022-03-24 10:38:20,468 - Created '20' parsers.
+2022-03-24 10:38:20,471 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2022-03-24 10:38:20,471 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2022-03-24 10:38:20,472 - Velocimacro : Default library not found.
+2022-03-24 10:38:20,472 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2022-03-24 10:38:20,472 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2022-03-24 10:38:20,472 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2022-03-24 10:38:20,472 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2022-03-24 10:38:20,489 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-24 10:38:20,498 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-24 10:38:20,501 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-24 10:38:20,503 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-24 10:38:20,505 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-24 10:38:20,508 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-24 10:42:36,011 - Log4JLogChute initialized using file 'velocity.log'
+2022-03-24 10:42:36,012 - Initializing Velocity, Calling init()...
+2022-03-24 10:42:36,012 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2022-03-24 10:42:36,012 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2022-03-24 10:42:36,012 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2022-03-24 10:42:36,012 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2022-03-24 10:42:36,012 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-03-24 10:42:36,012 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-03-24 10:42:36,015 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-24 10:42:36,026 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2022-03-24 10:42:36,027 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2022-03-24 10:42:36,028 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2022-03-24 10:42:36,028 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2022-03-24 10:42:36,029 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2022-03-24 10:42:36,029 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2022-03-24 10:42:36,030 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2022-03-24 10:42:36,031 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2022-03-24 10:42:36,032 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2022-03-24 10:42:36,033 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2022-03-24 10:42:36,056 - Created '20' parsers.
+2022-03-24 10:42:36,060 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2022-03-24 10:42:36,061 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2022-03-24 10:42:36,061 - Velocimacro : Default library not found.
+2022-03-24 10:42:36,061 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2022-03-24 10:42:36,061 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2022-03-24 10:42:36,061 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2022-03-24 10:42:36,061 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2022-03-24 10:42:36,077 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-24 10:42:36,086 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-24 10:42:36,088 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-24 10:42:36,090 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-24 10:42:36,092 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-24 10:42:36,095 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-24 10:44:33,671 - Log4JLogChute initialized using file 'velocity.log'
+2022-03-24 10:44:33,671 - Initializing Velocity, Calling init()...
+2022-03-24 10:44:33,671 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2022-03-24 10:44:33,671 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2022-03-24 10:44:33,671 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2022-03-24 10:44:33,671 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2022-03-24 10:44:33,671 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-03-24 10:44:33,671 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-03-24 10:44:33,673 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-24 10:44:33,679 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2022-03-24 10:44:33,680 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2022-03-24 10:44:33,680 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2022-03-24 10:44:33,681 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2022-03-24 10:44:33,681 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2022-03-24 10:44:33,681 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2022-03-24 10:44:33,682 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2022-03-24 10:44:33,682 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2022-03-24 10:44:33,683 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2022-03-24 10:44:33,683 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2022-03-24 10:44:33,706 - Created '20' parsers.
+2022-03-24 10:44:33,709 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2022-03-24 10:44:33,709 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2022-03-24 10:44:33,709 - Velocimacro : Default library not found.
+2022-03-24 10:44:33,709 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2022-03-24 10:44:33,709 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2022-03-24 10:44:33,709 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2022-03-24 10:44:33,709 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2022-03-24 10:44:33,724 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-24 10:44:33,732 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-24 10:44:33,734 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-24 10:44:33,736 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-24 10:44:33,738 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-24 10:44:33,741 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 21:36:47,749 - Log4JLogChute initialized using file 'velocity.log'
+2022-03-27 21:36:47,749 - Initializing Velocity, Calling init()...
+2022-03-27 21:36:47,750 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2022-03-27 21:36:47,750 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2022-03-27 21:36:47,750 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2022-03-27 21:36:47,750 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2022-03-27 21:36:47,750 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-03-27 21:36:47,750 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-03-27 21:36:47,752 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 21:36:47,760 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2022-03-27 21:36:47,761 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2022-03-27 21:36:47,762 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2022-03-27 21:36:47,762 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2022-03-27 21:36:47,763 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2022-03-27 21:36:47,763 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2022-03-27 21:36:47,764 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2022-03-27 21:36:47,765 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2022-03-27 21:36:47,765 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2022-03-27 21:36:47,766 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2022-03-27 21:36:47,790 - Created '20' parsers.
+2022-03-27 21:36:47,793 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2022-03-27 21:36:47,793 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2022-03-27 21:36:47,793 - Velocimacro : Default library not found.
+2022-03-27 21:36:47,793 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2022-03-27 21:36:47,793 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2022-03-27 21:36:47,793 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2022-03-27 21:36:47,794 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2022-03-27 21:36:47,812 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 21:36:47,819 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 21:36:47,822 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 21:36:47,823 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 21:36:47,825 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 21:36:47,832 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 21:48:30,341 - Log4JLogChute initialized using file 'velocity.log'
+2022-03-27 21:48:30,341 - Initializing Velocity, Calling init()...
+2022-03-27 21:48:30,341 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2022-03-27 21:48:30,342 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2022-03-27 21:48:30,342 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2022-03-27 21:48:30,342 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2022-03-27 21:48:30,342 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-03-27 21:48:30,342 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-03-27 21:48:30,344 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 21:48:30,352 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2022-03-27 21:48:30,353 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2022-03-27 21:48:30,354 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2022-03-27 21:48:30,354 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2022-03-27 21:48:30,355 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2022-03-27 21:48:30,355 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2022-03-27 21:48:30,356 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2022-03-27 21:48:30,356 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2022-03-27 21:48:30,357 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2022-03-27 21:48:30,358 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2022-03-27 21:48:30,375 - Created '20' parsers.
+2022-03-27 21:48:30,385 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2022-03-27 21:48:30,385 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2022-03-27 21:48:30,385 - Velocimacro : Default library not found.
+2022-03-27 21:48:30,385 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2022-03-27 21:48:30,385 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2022-03-27 21:48:30,385 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2022-03-27 21:48:30,385 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2022-03-27 21:48:30,400 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 21:48:30,407 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 21:48:30,410 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 21:48:30,411 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 21:48:30,413 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 21:48:30,415 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 21:52:01,111 - Log4JLogChute initialized using file 'velocity.log'
+2022-03-27 21:52:01,112 - Initializing Velocity, Calling init()...
+2022-03-27 21:52:01,112 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2022-03-27 21:52:01,112 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2022-03-27 21:52:01,112 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2022-03-27 21:52:01,112 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2022-03-27 21:52:01,112 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-03-27 21:52:01,112 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-03-27 21:52:01,114 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 21:52:01,122 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2022-03-27 21:52:01,123 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2022-03-27 21:52:01,124 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2022-03-27 21:52:01,124 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2022-03-27 21:52:01,125 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2022-03-27 21:52:01,125 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2022-03-27 21:52:01,126 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2022-03-27 21:52:01,126 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2022-03-27 21:52:01,127 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2022-03-27 21:52:01,128 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2022-03-27 21:52:01,150 - Created '20' parsers.
+2022-03-27 21:52:01,162 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2022-03-27 21:52:01,162 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2022-03-27 21:52:01,162 - Velocimacro : Default library not found.
+2022-03-27 21:52:01,162 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2022-03-27 21:52:01,163 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2022-03-27 21:52:01,163 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2022-03-27 21:52:01,163 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2022-03-27 21:52:01,184 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 21:52:01,194 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 21:52:01,197 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 21:52:01,199 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 21:52:01,201 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 21:52:01,205 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 21:58:35,318 - Log4JLogChute initialized using file 'velocity.log'
+2022-03-27 21:58:35,318 - Initializing Velocity, Calling init()...
+2022-03-27 21:58:35,318 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2022-03-27 21:58:35,319 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2022-03-27 21:58:35,319 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2022-03-27 21:58:35,319 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2022-03-27 21:58:35,319 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-03-27 21:58:35,319 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-03-27 21:58:35,322 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 21:58:35,332 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2022-03-27 21:58:35,333 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2022-03-27 21:58:35,334 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2022-03-27 21:58:35,334 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2022-03-27 21:58:35,334 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2022-03-27 21:58:35,335 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2022-03-27 21:58:35,335 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2022-03-27 21:58:35,336 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2022-03-27 21:58:35,336 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2022-03-27 21:58:35,337 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2022-03-27 21:58:35,356 - Created '20' parsers.
+2022-03-27 21:58:35,366 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2022-03-27 21:58:35,366 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2022-03-27 21:58:35,366 - Velocimacro : Default library not found.
+2022-03-27 21:58:35,366 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2022-03-27 21:58:35,366 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2022-03-27 21:58:35,366 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2022-03-27 21:58:35,366 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2022-03-27 21:58:35,382 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 21:58:35,390 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 21:58:35,392 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 21:58:35,394 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 21:58:35,396 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 21:58:35,398 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 23:02:34,197 - Log4JLogChute initialized using file 'velocity.log'
+2022-03-27 23:02:34,198 - Initializing Velocity, Calling init()...
+2022-03-27 23:02:34,198 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2022-03-27 23:02:34,198 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2022-03-27 23:02:34,198 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2022-03-27 23:02:34,198 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2022-03-27 23:02:34,198 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-03-27 23:02:34,198 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-03-27 23:02:34,200 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 23:02:34,211 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2022-03-27 23:02:34,212 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2022-03-27 23:02:34,213 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2022-03-27 23:02:34,213 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2022-03-27 23:02:34,213 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2022-03-27 23:02:34,214 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2022-03-27 23:02:34,214 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2022-03-27 23:02:34,215 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2022-03-27 23:02:34,216 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2022-03-27 23:02:34,216 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2022-03-27 23:02:34,240 - Created '20' parsers.
+2022-03-27 23:02:34,244 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2022-03-27 23:02:34,245 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2022-03-27 23:02:34,245 - Velocimacro : Default library not found.
+2022-03-27 23:02:34,245 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2022-03-27 23:02:34,245 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2022-03-27 23:02:34,245 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2022-03-27 23:02:34,245 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2022-03-27 23:02:34,261 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 23:02:34,270 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 23:02:34,274 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 23:02:34,276 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 23:02:34,279 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-27 23:02:34,283 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-28 15:59:09,135 - Log4JLogChute initialized using file 'velocity.log'
+2022-03-28 15:59:09,135 - Initializing Velocity, Calling init()...
+2022-03-28 15:59:09,136 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2022-03-28 15:59:09,136 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2022-03-28 15:59:09,136 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2022-03-28 15:59:09,136 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2022-03-28 15:59:09,136 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-03-28 15:59:09,136 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-03-28 15:59:09,138 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-28 15:59:09,150 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2022-03-28 15:59:09,151 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2022-03-28 15:59:09,152 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2022-03-28 15:59:09,152 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2022-03-28 15:59:09,153 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2022-03-28 15:59:09,153 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2022-03-28 15:59:09,154 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2022-03-28 15:59:09,155 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2022-03-28 15:59:09,156 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2022-03-28 15:59:09,156 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2022-03-28 15:59:09,174 - Created '20' parsers.
+2022-03-28 15:59:09,184 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2022-03-28 15:59:09,184 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2022-03-28 15:59:09,184 - Velocimacro : Default library not found.
+2022-03-28 15:59:09,184 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2022-03-28 15:59:09,185 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2022-03-28 15:59:09,185 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2022-03-28 15:59:09,185 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2022-03-28 15:59:09,201 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-28 15:59:09,210 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-28 15:59:09,213 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-28 15:59:09,216 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-28 15:59:09,219 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-03-28 15:59:09,222 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-04-11 12:29:00,469 - Log4JLogChute initialized using file 'velocity.log'
+2022-04-11 12:29:00,469 - Initializing Velocity, Calling init()...
+2022-04-11 12:29:00,469 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2022-04-11 12:29:00,469 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2022-04-11 12:29:00,469 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2022-04-11 12:29:00,469 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2022-04-11 12:29:00,469 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-04-11 12:29:00,469 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-04-11 12:29:00,475 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-04-11 12:29:00,499 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2022-04-11 12:29:00,501 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2022-04-11 12:29:00,502 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2022-04-11 12:29:00,503 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2022-04-11 12:29:00,504 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2022-04-11 12:29:00,505 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2022-04-11 12:29:00,507 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2022-04-11 12:29:00,508 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2022-04-11 12:29:00,509 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2022-04-11 12:29:00,510 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2022-04-11 12:29:00,544 - Created '20' parsers.
+2022-04-11 12:29:00,578 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2022-04-11 12:29:00,578 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2022-04-11 12:29:00,579 - Velocimacro : Default library not found.
+2022-04-11 12:29:00,579 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2022-04-11 12:29:00,579 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2022-04-11 12:29:00,579 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2022-04-11 12:29:00,579 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2022-04-11 12:29:00,643 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-04-11 12:29:00,667 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-04-11 12:29:00,670 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-04-11 12:29:00,676 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-04-11 12:29:00,682 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-04-11 12:29:00,688 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-04-12 12:31:26,159 - Log4JLogChute initialized using file 'velocity.log'
+2022-04-12 12:31:26,160 - Initializing Velocity, Calling init()...
+2022-04-12 12:31:26,160 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2022-04-12 12:31:26,160 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2022-04-12 12:31:26,160 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2022-04-12 12:31:26,160 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2022-04-12 12:31:26,160 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-04-12 12:31:26,160 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-04-12 12:31:26,162 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-04-12 12:31:26,171 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2022-04-12 12:31:26,171 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2022-04-12 12:31:26,172 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2022-04-12 12:31:26,172 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2022-04-12 12:31:26,173 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2022-04-12 12:31:26,173 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2022-04-12 12:31:26,173 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2022-04-12 12:31:26,174 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2022-04-12 12:31:26,174 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2022-04-12 12:31:26,175 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2022-04-12 12:31:26,197 - Created '20' parsers.
+2022-04-12 12:31:26,200 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2022-04-12 12:31:26,201 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2022-04-12 12:31:26,201 - Velocimacro : Default library not found.
+2022-04-12 12:31:26,201 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2022-04-12 12:31:26,201 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2022-04-12 12:31:26,201 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2022-04-12 12:31:26,201 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2022-04-12 12:31:26,217 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-04-12 12:31:26,225 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-04-12 12:31:26,228 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-04-12 12:31:26,230 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-04-12 12:31:26,231 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-04-12 12:31:26,234 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-04-12 12:31:46,339 - Log4JLogChute initialized using file 'velocity.log'
+2022-04-12 12:31:46,340 - Initializing Velocity, Calling init()...
+2022-04-12 12:31:46,340 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2022-04-12 12:31:46,340 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2022-04-12 12:31:46,340 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2022-04-12 12:31:46,340 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2022-04-12 12:31:46,340 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-04-12 12:31:46,340 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-04-12 12:31:46,342 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-04-12 12:31:46,348 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2022-04-12 12:31:46,349 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2022-04-12 12:31:46,349 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2022-04-12 12:31:46,350 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2022-04-12 12:31:46,350 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2022-04-12 12:31:46,350 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2022-04-12 12:31:46,351 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2022-04-12 12:31:46,351 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2022-04-12 12:31:46,352 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2022-04-12 12:31:46,352 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2022-04-12 12:31:46,375 - Created '20' parsers.
+2022-04-12 12:31:46,378 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2022-04-12 12:31:46,378 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2022-04-12 12:31:46,378 - Velocimacro : Default library not found.
+2022-04-12 12:31:46,378 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2022-04-12 12:31:46,378 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2022-04-12 12:31:46,378 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2022-04-12 12:31:46,378 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2022-04-12 12:31:46,396 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-04-12 12:31:46,405 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-04-12 12:31:46,407 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-04-12 12:31:46,409 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-04-12 12:31:46,411 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-04-12 12:31:46,413 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-04-12 12:45:54,821 - Log4JLogChute initialized using file 'velocity.log'
+2022-04-12 12:45:54,822 - Initializing Velocity, Calling init()...
+2022-04-12 12:45:54,822 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2022-04-12 12:45:54,822 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2022-04-12 12:45:54,822 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2022-04-12 12:45:54,822 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2022-04-12 12:45:54,822 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-04-12 12:45:54,822 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-04-12 12:45:54,824 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-04-12 12:45:54,832 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2022-04-12 12:45:54,833 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2022-04-12 12:45:54,833 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2022-04-12 12:45:54,834 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2022-04-12 12:45:54,834 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2022-04-12 12:45:54,834 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2022-04-12 12:45:54,835 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2022-04-12 12:45:54,835 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2022-04-12 12:45:54,836 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2022-04-12 12:45:54,836 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2022-04-12 12:45:54,859 - Created '20' parsers.
+2022-04-12 12:45:54,862 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2022-04-12 12:45:54,863 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2022-04-12 12:45:54,863 - Velocimacro : Default library not found.
+2022-04-12 12:45:54,863 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2022-04-12 12:45:54,863 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2022-04-12 12:45:54,863 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2022-04-12 12:45:54,863 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2022-04-12 12:45:54,878 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-04-12 12:45:54,886 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-04-12 12:45:54,888 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-04-12 12:45:54,890 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-04-12 12:45:54,892 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-04-12 12:45:54,895 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-10-03 14:26:31,154 - Log4JLogChute initialized using file 'velocity.log'
+2022-10-03 14:26:31,155 - Initializing Velocity, Calling init()...
+2022-10-03 14:26:31,155 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2022-10-03 14:26:31,155 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2022-10-03 14:26:31,155 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2022-10-03 14:26:31,155 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2022-10-03 14:26:31,155 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-10-03 14:26:31,155 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-10-03 14:26:31,158 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-10-03 14:26:31,174 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2022-10-03 14:26:31,175 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2022-10-03 14:26:31,176 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2022-10-03 14:26:31,176 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2022-10-03 14:26:31,177 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2022-10-03 14:26:31,177 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2022-10-03 14:26:31,178 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2022-10-03 14:26:31,178 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2022-10-03 14:26:31,179 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2022-10-03 14:26:31,179 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2022-10-03 14:26:31,197 - Created '20' parsers.
+2022-10-03 14:26:31,200 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2022-10-03 14:26:31,200 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2022-10-03 14:26:31,200 - Velocimacro : Default library not found.
+2022-10-03 14:26:31,200 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2022-10-03 14:26:31,200 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2022-10-03 14:26:31,200 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2022-10-03 14:26:31,200 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2022-10-03 14:26:31,216 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-10-03 14:26:31,224 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-10-03 14:26:31,227 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-10-03 14:26:31,229 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-10-03 14:26:31,232 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-10-03 14:26:31,234 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-10-03 15:48:53,168 - Log4JLogChute initialized using file 'velocity.log'
+2022-10-03 15:48:53,168 - Initializing Velocity, Calling init()...
+2022-10-03 15:48:53,168 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2022-10-03 15:48:53,168 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2022-10-03 15:48:53,168 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2022-10-03 15:48:53,168 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2022-10-03 15:48:53,168 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-10-03 15:48:53,168 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-10-03 15:48:53,170 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-10-03 15:48:53,183 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2022-10-03 15:48:53,184 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2022-10-03 15:48:53,185 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2022-10-03 15:48:53,185 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2022-10-03 15:48:53,185 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2022-10-03 15:48:53,186 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2022-10-03 15:48:53,186 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2022-10-03 15:48:53,187 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2022-10-03 15:48:53,187 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2022-10-03 15:48:53,188 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2022-10-03 15:48:53,209 - Created '20' parsers.
+2022-10-03 15:48:53,211 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2022-10-03 15:48:53,212 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2022-10-03 15:48:53,212 - Velocimacro : Default library not found.
+2022-10-03 15:48:53,212 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2022-10-03 15:48:53,212 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2022-10-03 15:48:53,212 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2022-10-03 15:48:53,212 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2022-10-03 15:48:53,226 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-10-03 15:48:53,236 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-10-03 15:48:53,238 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-10-03 15:48:53,241 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-10-03 15:48:53,245 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-10-03 15:48:53,249 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-12-12 19:27:39,209 - Log4JLogChute initialized using file 'velocity.log'
+2022-12-12 19:27:39,209 - Initializing Velocity, Calling init()...
+2022-12-12 19:27:39,209 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2022-12-12 19:27:39,209 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2022-12-12 19:27:39,209 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2022-12-12 19:27:39,209 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2022-12-12 19:27:39,209 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-12-12 19:27:39,209 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-12-12 19:27:39,212 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-12-12 19:27:39,221 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2022-12-12 19:27:39,222 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2022-12-12 19:27:39,223 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2022-12-12 19:27:39,224 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2022-12-12 19:27:39,231 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2022-12-12 19:27:39,232 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2022-12-12 19:27:39,232 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2022-12-12 19:27:39,232 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2022-12-12 19:27:39,233 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2022-12-12 19:27:39,234 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2022-12-12 19:27:39,251 - Created '20' parsers.
+2022-12-12 19:27:39,255 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2022-12-12 19:27:39,255 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2022-12-12 19:27:39,255 - Velocimacro : Default library not found.
+2022-12-12 19:27:39,255 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2022-12-12 19:27:39,255 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2022-12-12 19:27:39,255 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2022-12-12 19:27:39,255 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2022-12-12 19:27:39,270 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-12-12 19:27:39,278 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-12-12 19:27:39,282 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-12-12 19:27:39,284 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-12-12 19:27:39,286 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-12-12 19:27:39,288 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-12-12 19:31:19,431 - Log4JLogChute initialized using file 'velocity.log'
+2022-12-12 19:31:19,432 - Initializing Velocity, Calling init()...
+2022-12-12 19:31:19,432 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2022-12-12 19:31:19,432 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2022-12-12 19:31:19,432 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2022-12-12 19:31:19,432 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2022-12-12 19:31:19,432 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-12-12 19:31:19,432 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-12-12 19:31:19,434 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-12-12 19:31:19,440 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2022-12-12 19:31:19,442 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2022-12-12 19:31:19,443 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2022-12-12 19:31:19,443 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2022-12-12 19:31:19,444 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2022-12-12 19:31:19,451 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2022-12-12 19:31:19,452 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2022-12-12 19:31:19,453 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2022-12-12 19:31:19,453 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2022-12-12 19:31:19,454 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2022-12-12 19:31:19,471 - Created '20' parsers.
+2022-12-12 19:31:19,475 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2022-12-12 19:31:19,475 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2022-12-12 19:31:19,475 - Velocimacro : Default library not found.
+2022-12-12 19:31:19,475 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2022-12-12 19:31:19,475 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2022-12-12 19:31:19,475 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2022-12-12 19:31:19,475 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2022-12-12 19:31:19,495 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-12-12 19:31:19,504 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-12-12 19:31:19,507 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-12-12 19:31:19,509 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-12-12 19:31:19,510 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-12-12 19:31:19,513 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-12-12 19:39:14,727 - Log4JLogChute initialized using file 'velocity.log'
+2022-12-12 19:39:14,727 - Initializing Velocity, Calling init()...
+2022-12-12 19:39:14,727 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2022-12-12 19:39:14,727 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2022-12-12 19:39:14,727 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2022-12-12 19:39:14,727 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2022-12-12 19:39:14,728 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-12-12 19:39:14,728 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-12-12 19:39:14,730 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-12-12 19:39:14,736 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2022-12-12 19:39:14,737 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2022-12-12 19:39:14,738 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2022-12-12 19:39:14,738 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2022-12-12 19:39:14,745 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2022-12-12 19:39:14,746 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2022-12-12 19:39:14,747 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2022-12-12 19:39:14,747 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2022-12-12 19:39:14,748 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2022-12-12 19:39:14,748 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2022-12-12 19:39:14,767 - Created '20' parsers.
+2022-12-12 19:39:14,770 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2022-12-12 19:39:14,771 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2022-12-12 19:39:14,771 - Velocimacro : Default library not found.
+2022-12-12 19:39:14,771 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2022-12-12 19:39:14,771 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2022-12-12 19:39:14,771 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2022-12-12 19:39:14,771 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2022-12-12 19:39:14,788 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-12-12 19:39:14,796 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-12-12 19:39:14,798 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-12-12 19:39:14,800 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-12-12 19:39:14,802 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-12-12 19:39:14,806 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader

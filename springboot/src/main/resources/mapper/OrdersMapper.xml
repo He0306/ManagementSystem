@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.test.mapper.OrdersMapper">
+
+    <update id="updateState">
+        update orders
+        set state        = #{state},
+            payment_time = #{paymentTime},
+            alipay_no    = #{alipayNo}
+        where no = #{no}
+    </update>
+
+    <update id="updatePayState">
+        update orders
+        set state       = #{state},
+            return_time = #{now}
+        where no = #{no}
+    </update>
+
+    <select id="getByNo" resultType="com.test.entity.Orders">
+        select *
+        from orders
+        where no = #{no}
+    </select>
+</mapper>
