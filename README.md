@@ -22,6 +22,10 @@ B/S架构，采用前后端分离技术
 
 #### 页面效果
 
+* 首页
+![image](https://user-images.githubusercontent.com/112495880/228248107-c61a542d-768b-4264-b845-8f1fc2731ab6.png)
+
+
 #### 可加QQ询问
 
 QQ：2740860037
