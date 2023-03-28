@@ -20,6 +20,18 @@ B/S架构，采用前后端分离技术
 
 #### 技术介绍
 
+前端技术：Vue2 + Vuex + Vue - Router + Axios + Element - ui + Echarts + JavaScript
+
+后端技术：SpringBoot + Jwt + MyBatisPlus + MySQL+ Redis + Swagger + Druid + WebSocket
+
+* 实现RBAC权限模型，可进行动态分配权限
+
+* Swagger生产接口文档，方便前端接入数据
+
+* JWT进行身份权限认证
+
+* Redis缓存数据，加快查询效率
+
 #### 页面效果
 
 * 首页
