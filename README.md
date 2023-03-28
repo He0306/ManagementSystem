@@ -25,6 +25,11 @@ B/S架构，采用前后端分离技术
 * 首页
 ![image](imgs/1.png)
 
+* 分配权限
+![image](imgs/3.png)
+
+* 疫情地图
+![image](imgs/2.png)
 
 #### 可加QQ询问
 
