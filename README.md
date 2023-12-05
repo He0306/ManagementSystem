@@ -2,7 +2,7 @@
 
 基于SpringBoot+Vue前后端分离的通用后台管理系统，支持动态分配权限，实时的疫情地图，高德地图，沙箱支付等
 
-在线网址：https://hechao.online
+在线网址：[http:47.98.240.56](http://47.98.240.56/ManagementSystem)
 
 #### 软件架构
 
